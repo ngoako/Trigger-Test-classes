@@ -15,9 +15,9 @@ public with sharing class CreateOpportunityTest {
         Test.startTest();
         insert lstOpp;
         Test.stopTest();
-
+        //Query the inserted data - only fetching one record
         List<Opportunity> myList = [SELECT Id, Description FROM Opportunity WHERE Id =: lstOpp[0].Id];
-
+        //Compare the actual with expected using assert
         System.Assert.areEqual('Hot Opportunity', myList[0].Description);
     }
 
