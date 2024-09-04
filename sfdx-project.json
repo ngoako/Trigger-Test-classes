@@ -5,7 +5,11 @@
       "default": true
     }
   ],
+<<<<<<< HEAD
   "name": "triggerwithtesting",
+=======
+  "name": "TriggerAndTest",
+>>>>>>> 509ab3c19f163e580c61211772b84594ce0b8948
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "61.0"
